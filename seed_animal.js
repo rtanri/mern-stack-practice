@@ -9,14 +9,22 @@ const mongoURI =
 
 let data = [
   {
-    name: "Pongo",
-    species: "dog",
-    breed: "Pomerian",
+    name: "Jim",
+    species: "Cat",
+    breed: "British Short Hair",
+    //enum allow schema to use defined-array on top
+    gender: "f",
+    age: 1,
+    adopted: false,
   },
   {
-    name: "Luna",
-    species: "cat",
+    name: "Jess",
+    species: "Cat",
     breed: "British Short Hair",
+    //enum allow schema to use defined-array on top
+    gender: "f",
+    age: 1,
+    adopted: false,
   },
 ];
 
